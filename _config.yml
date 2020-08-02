@@ -3,11 +3,11 @@ title: Br4ckets Blog
 description: >- # site description
   He's writing in Bahasa about web technology and experience as a journal 
   for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
-lang: en-US # default lang
-timezone: America/Santiago # set your timezone
+lang: en-US
+timezone: America/Santiago
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
-mode: dark # default theme "dark" | "light"
+mode: dark 
 
 # Profile settings
 author:
@@ -17,7 +17,7 @@ author:
   username: Br4ck3ts
   github: Br4ck3ts
   twitter: br4ck3ts
-  #facebook:
+  facebook:
   email: mrbr4ckets@protonmail.com #
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
