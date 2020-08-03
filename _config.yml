@@ -18,8 +18,8 @@ author:
   github: Br4ck3ts
   twitter: br4ck3ts
   facebook:
-  email: mrbr4ckets@protonmail.com #
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  email: mrbr4ckets@protonmail.com
+  avatar: /assets/img/avatar.jpg 
 
 # Url settings
 url: 
@@ -30,7 +30,7 @@ fb_appid:
 
 # Collection setting
 collections:
-  posts:
+  posts: true
     output: true
 
 # Markdown settings
