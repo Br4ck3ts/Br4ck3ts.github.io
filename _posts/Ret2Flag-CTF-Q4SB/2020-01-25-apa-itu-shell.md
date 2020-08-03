@@ -8,4 +8,4 @@ description:
 
 Inicialmente nos entregan lo siguiente:
 
-(1.png)
+![1](1.png)
