@@ -8,7 +8,7 @@ description:
 
 Inicialmente nos entregan lo siguiente:
 
-![1](/Ret2Flag-CTF-Q4SB/1.png)
+![1]("/Ret2Flag-CTF-Q4SB/1.png")
 
 
-<img src="/Ret2Flag-CTF-Q4SB/1.png">
+<img src="1.png">
