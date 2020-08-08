@@ -30,7 +30,7 @@ fb_appid:
 
 # Collection setting
 collections:
-  posts: true
+  posts: 
     output: true
 
 # Markdown settings
