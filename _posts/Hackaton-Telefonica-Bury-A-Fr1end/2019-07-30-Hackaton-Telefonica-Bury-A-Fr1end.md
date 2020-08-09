@@ -1,6 +1,6 @@
 ---
 title: Ret2Flag-CTF-Q4SB
-date: 2020-07-25 11:58:47 +07:00
+date: 2019-07-30 11:58:47 +07:00
 ---
 
 Primero para empezar ocuparemos Nmap para revisar que puertos tiene abiertos la máquina.
