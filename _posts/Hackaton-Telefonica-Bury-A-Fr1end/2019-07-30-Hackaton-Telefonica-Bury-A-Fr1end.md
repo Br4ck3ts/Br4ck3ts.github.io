@@ -1,6 +1,6 @@
 ---
-title: Ret2Flag-CTF-Q4SB
-date: 2019-07-30 11:58:47 +07:00
+title: Hackaton-Telefonica-Bury-A-Fr1end
+date: 2019-07-30 11:58:47 +07:000
 ---
 
 Primero para empezar ocuparemos Nmap para revisar que puertos tiene abiertos la máquina.
