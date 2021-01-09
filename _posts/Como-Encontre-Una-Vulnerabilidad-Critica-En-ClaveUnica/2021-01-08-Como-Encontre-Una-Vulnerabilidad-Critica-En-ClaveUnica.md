@@ -24,8 +24,8 @@ La búsqueda me llevó a encontrar el host de la API de autenticación de Clave�
 
 Con en esta información, ya tenía dos certezas:
 
-⋅⋅* Para solicitar la recuperación de ClaveÚnica hay una solicitud donde solo pasa el RUT sin el digito verificador
-⋅⋅* La autenticación pasa por la API
+- Para solicitar la recuperación de ClaveÚnica hay una solicitud donde solo pasa el RUT sin el digito verificador
+- La autenticación pasa por la API
 
 Continué analizando el flujo de la recuperación de clave y viendo la respuesta por parte del servidor hacia el cliente, encontré lo siguiente:
 
@@ -41,10 +41,10 @@ Para comprobar lo anterior, repetí el paso de la recuperación para obtener el 
 
 Observé que para la actualización de datos se necesitaban los siguientes requisitos:
 
-⋅⋅* La cabecera Token debe tener un Token de sesión
-⋅⋅* En el cuerpo de la solicitud se observa que pasa el RUT sin dígito verificador en la variable numero
-⋅⋅* En la variable email se entrega el correo electrónico con el que se actualizará la cuenta
-⋅⋅* En la variable number se encuentra el número de teléfono con el que se actualizará la cuenta
+- La cabecera Token debe tener un Token de sesión
+- En el cuerpo de la solicitud se observa que pasa el RUT sin dígito verificador en la variable numero
+- En la variable email se entrega el correo electrónico con el que se actualizará la cuenta
+- En la variable number se encuentra el número de teléfono con el que se actualizará la cuenta
 
 Con esta información se configura una idea de qué hacer para poder explotar la vulnerabilidad, que es un IDOR, y esto conllevaría finalmente a tomar la cuenta de otra persona cambiando esta información.
 
