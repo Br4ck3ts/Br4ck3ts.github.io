@@ -1,7 +1,6 @@
 # Site settings
 title: Br4ckets Blog 
-description: 
-	Pentester | OSCP
+description: Pentester | OSCP
 lang: en-US
 timezone: America/Santiago
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
