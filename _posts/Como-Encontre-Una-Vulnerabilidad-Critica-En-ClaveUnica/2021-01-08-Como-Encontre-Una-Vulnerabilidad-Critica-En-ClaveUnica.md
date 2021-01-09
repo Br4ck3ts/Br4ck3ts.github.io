@@ -3,7 +3,7 @@ title: Como encontré una vulnerabilidad crítica en ClaveUnica
 date: 2021-01-08 11:58:47 +07:00
 ---
 
-Antes de todo, agradezco el apoyo que entregó el [CSIRT](https://twitter.com/csirtgob/) con quien trabajé en conjunto en un informe para públicar, pero no pudo salir a la luz debido a la antigua cultura que tiene [Gobierno Digital](https://twitter.com/GobDigitalCL) en donde demostrar que tus sistemas tienen vulnerabilidades es una debilidad. Finalmente logran que la gente que les detecte vulnerabilidades no les reporten sus brechas, lo ideal sería que cambiaramos ese switch como cultura y se premien estas actividades como en el resto del mundo en donde se crea una cultura proactiva del hacking por el mejorar internet. 
+Antes de todo, agradezco el apoyo que entregó el [CSIRT](https://twitter.com/csirtgob/) con quien trabajé en conjunto en un informe para públicar, pero no pudo salir a la luz debido a la antigua cultura que tiene [Gobierno Digital](https://twitter.com/GobDigitalCL) en donde demostrar que tus sistemas tienen vulnerabilidades es una debilidad. Finalmente logran que la gente que les detecte vulnerabilidades no les reporten sus brechas, lo ideal sería que cambiaramos ese switch como cultura y se premien estas actividades como en el resto del mundo en donde se crea una cultura proactiva del hacking para mejorar internet. 
 
 
 Bueno a lo que vamos ... 
@@ -22,7 +22,7 @@ La búsqueda me llevó a encontrar el host de la API de autenticación de Clave�
 
 ![claveunica2](/assets/img/claveunica2.png)
 
-Con en esta información, ya tenía dos certezas:
+Con esta información, ya tenía dos certezas:
 
 - Para solicitar la recuperación de ClaveÚnica hay una solicitud donde solo pasa el RUT sin el digito verificador
 - La autenticación pasa por la API
